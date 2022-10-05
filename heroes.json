@@ -1,12 +1,6 @@
 {
   "heroes": [
     {
-      "id": 2,
-      "name": "Неизвестный герой",
-      "description": "Скрывающийся в тени",
-      "element": "wind"
-    },
-    {
       "id": 3,
       "name": "Морской герой",
       "description": "Как аквамен, но не из DC",
@@ -19,10 +13,22 @@
       "element": "fire"
     },
     {
-      "id": 1664902183954,
-      "name": "awdawda",
-      "description": "none",
-      "element": "water"
+      "id": 1664965437269,
+      "name": "muxamad",
+      "description": "Adams",
+      "element": "earth"
+    },
+    {
+      "id": 1664965786546,
+      "name": "Aminjon",
+      "description": "vafokulov",
+      "element": "fire"
+    },
+    {
+      "id": 1664965813809,
+      "name": "Maks",
+      "description": "maksovich",
+      "element": "wind"
     }
   ],
   "filters": [

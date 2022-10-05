@@ -9,8 +9,9 @@ import HeroesListItem from '../heroesListItem/HeroesListItem'
 import { useEffect } from "react";
 import { fetchHeroes } from "../../store/heroesThunk";
 
-const HeroesList = () => {
-    const {heroes, status} = useSelector(state => state)
+const HeroesList = (props) => {
+    console.log(props.arr);
+    const {status} = useSelector(state => state)
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -34,7 +35,7 @@ const HeroesList = () => {
         })
     }
 
-    const elements = renderHeroesList(heroes);
+    const elements = renderHeroesList(props.arr);
     return (
         <ul>
             {elements}

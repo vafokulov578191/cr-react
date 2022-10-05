@@ -6,7 +6,6 @@ export const fetchHeroes = createAsyncThunk(
     'heroes/fetchHeroes',
     async () => {
         const { data } = await axios.get('http://localhost:3001/heroes')
-        console.log(data);
         return data
     }
 )

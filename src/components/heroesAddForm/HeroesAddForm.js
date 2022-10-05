@@ -16,7 +16,6 @@ const HeroesAddForm = () => {
     let [name, setName] = useState('')
     let [description, setDescription] = useState('')
     let [element, setElement] = useState('')
-    
     const dispatch = useDispatch()
 
     let onSubmit = (e) => {
